@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Phone Number Assignment</title>
+  </head>
+  <body>
+    <section class="section">
+      <form action="" class="formContainer">
+        <div class="upContainer">
+          <p>SignUp</p>
+          <select class="selectNetwork" name="" id="">
+            <option value="all">select network</option>
+            <option value="mtn">Mtn</option>
+            <option value="airtel">Airtel</option>
+            <option value="glo">Glo</option>
+            <option value="9mobile">9mobile</option>
+          </select>
+        </div>
+        <div class="downContainer">
+          <div class="inputContainer">
+            <label for="">Full Name*</label>
+            <input type="text" />
+          </div>
+          <div class="inputContainer">
+            <label for="">Email*</label>
+            <input type="text" />
+          </div>
+
+          <div class="phoneContainer">
+            <label for="">Phone Number*</label>
+            <p class="notice">*Please Provide only valid Nigeria Number</p>
+            <div class="phoneInputContainer">
+              <div class="countryCodeContainer">
+                <select class="btnImg" name="" id="">
+                  <!-- <option class="countryCode" value="">+234</option> -->
+                </select>
+                <p class="code"></p>
+              </div>
+              <div class="phoneBox">
+                <div class="phoneInput">
+                  <input class="phoneInputArea" type="text" />
+                </div>
+                <div class="networkLogo">
+                  <!-- <img class="netImg" src="" alt="" /> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    <script type="module" src="./js/utils.js"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
